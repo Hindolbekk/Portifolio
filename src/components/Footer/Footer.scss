@@ -1,0 +1,34 @@
+.Footer{
+    background: #1A1A29;
+    padding-bottom: 60px;
+}
+.Footer__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1070px;
+    margin: 0 auto;
+    .list__item{
+        color:  #FFF;
+     font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+}
+.footer__connect__list{
+    margin-top: 15px;
+    margin-left: 200px;
+    max-width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .footer__connect__item{
+        i{
+            color: #7562E0;
+            width: 32px;
+        height: 32px;
+        }
+       
+    }
+}

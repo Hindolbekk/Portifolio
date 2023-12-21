@@ -1,0 +1,40 @@
+.Skill{
+    background: #1A1A29;
+    padding-bottom: 30px;
+}
+.Skill__title{
+color:  #7562E0;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-bottom: 30px;
+}
+.skill__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+p{
+color: white;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+}
+.languagee{
+    color:  #7562E0;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 30px; 
+    padding-top: 20px;
+}
+img{
+    padding-right: 5px;
+}
+li{
+    padding-top: 15px;
+}

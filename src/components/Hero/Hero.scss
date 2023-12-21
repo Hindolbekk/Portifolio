@@ -1,0 +1,83 @@
+.Hero{
+    padding-top: 117px;
+    background: #1A1A29;
+    z-index: 1;
+}
+.Hero__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Hero__info{
+    max-width: 435px;
+    h3{
+        font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: white;
+    }
+    h2{
+        font-size: 52px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: white;
+    }
+    p{
+        font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+color:white;
+    }
+    span{
+        display: flex;
+        margin-top: 29px;
+        button:nth-child(1){
+            padding: 12px 25px;
+            align-items: flex-start;
+            gap: 6px;
+            border-radius: 8px;
+            background:  #7562E0;
+           color: white;
+           font-size: 16px;
+           font-style: normal;
+           font-weight: 600;
+           line-height: normal;
+           a{
+            color: white;
+           }
+        }
+        button:nth-child(2){
+            margin-left: 20px;
+            border-radius: 8px;
+            border: 2px solid  #7562E0;
+            padding: 12px 34px;
+            align-items: flex-start;
+            gap: 5px;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            background: transparent;
+            color: white;
+            a{
+                color: white;
+               }
+        }
+    }
+}
+.Hero__img{
+    width: 487px;
+    overflow: hidden;
+    position: relative;
+ img{
+    height:450px ;
+    width: 486px;
+    object-fit: contain;
+    position: relative;
+    bottom: -6px;  
+ }
+ 
+}

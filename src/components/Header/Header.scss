@@ -1,0 +1,41 @@
+.Header{
+    background: #181824;
+    padding: 19px 160px;
+    position: fixed;
+    width: 100%;
+    text-align: center;  
+}
+.Headers{
+    background:grey;
+    padding: 19px 160px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__logo{
+color:  #7562E0;
+ font-size: 28px;
+ font-style: normal;
+ font-weight: 600;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav__item{
+        font-size: 20px;
+        margin-left: 50px;
+        a{ 
+            color: white;
+        }
+        .actives{
+            color: #7562E0;
+        }
+    }
+}
