@@ -8,22 +8,22 @@ export const projectData=[
     des:'you can add a new movie,delete,edit.you can divide it into categories, the login part is also worthy of praise.',
     title:`MOVIAS`,
     urlGit:"https://github.com/Hindolbekk/MoviasSite",
-    urlVercel:"https://movias-site-2d7fivdad-hks-projects-9f9cfb07.vercel.app"
+    urlVercel:"movias-site.vercel.app"
 },
 {
     id:2,
     img:singleLogin,
-    des:'A video streaming app with live Geolocation, for streaming events.',
+    des:'In this project,the registration process is simple, if the login and password are correct, the permission is allowed.',
     title:`SINGLE LOGIN`,
     urlGit:"https://github.com/Hindolbekk/singleLogin",
-    urlVercel:"https://single-login-las3bqjk5-hks-projects-9f9cfb07.vercel.app"
+    urlVercel:"single-login.vercel.app"
 },
 {
     id:3,
     img:Fetchh,
-    des:'Mobile app for booking instant pickup & dropoff accross major cities.',
+    des:'where the users are dependent on the sequence.',
     title:`USERS NETWORK`,
     urlGit:"https://github.com/Hindolbekk/FetchProject",
-    urlVercel:"https://fetch-project-lvoen5jvd-hks-projects-9f9cfb07.vercel.app"
+    urlVercel:"fetch-project-chi.vercel.app"
 }
 ]
