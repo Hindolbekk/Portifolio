@@ -8,7 +8,7 @@ export const projectData=[
     des:'you can add a new movie,delete,edit.you can divide it into categories, the login part is also worthy of praise.',
     title:`MOVIAS`,
     urlGit:"https://github.com/Hindolbekk/MoviasSite",
-    urlVercel:"movias-site.vercel.app"
+    urlVercel:"https://movias-site.vercel.app"
 },
 {
     id:2,

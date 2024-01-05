@@ -1,19 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .Header{
     background: #181824;
     padding: 19px 160px;
     position: fixed;
-    width: 100%;
+    max-width: 1920px;
     text-align: center;  
 }
 .Headers{
     background:grey;
     padding: 19px 160px;
     position: fixed;
-    width: 100%;
+    max-width: 1920px;
     z-index: 999;
     text-align: center;
 }
 nav{
+    max-width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,3 +45,17 @@ color:  #7562E0;
         }
     }
 }
+@media(max-width:1020px) {
+   .nav__list{
+    display: none;
+   }  
+}
+@media(max-width:595px) {
+    .nav__logo{
+        color:  #7562E0;
+         font-size: 12px;
+         font-style: normal;
+         font-weight: 500;
+        }
+    
+ }
