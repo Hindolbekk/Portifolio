@@ -1,6 +1,6 @@
 import movias from '../assets/img/MoviasImg.jpg'
 import singleLogin from '../assets/img/SingleLoginImg.jpg'
-import Fetchh from '../assets/img/fetchImg.png'
+import Counter from '../assets/img/counter.jpg'
 export const projectData=[
     {
     id:1,
@@ -16,14 +16,14 @@ export const projectData=[
     des:'In this project,the registration process is simple, if the login and password are correct, the permission is allowed.',
     title:`SINGLE LOGIN`,
     urlGit:"https://github.com/Hindolbekk/singleLogin",
-    urlVercel:"single-login.vercel.app"
+    urlVercel:"https://single-login.vercel.app"
 },
 {
     id:3,
-    img:Fetchh,
-    des:'where the users are dependent on the sequence.',
-    title:`USERS NETWORK`,
-    urlGit:"https://github.com/Hindolbekk/FetchProject",
-    urlVercel:"fetch-project-chi.vercel.app"
+    img:Counter,
+    des:'for simple counting and it can be added and reduced to the initial state',
+    title:`Single Counter`,
+    urlGit:"https://github.com/Hindolbekk/SingleCounter",
+    urlVercel:"https://single-counter.vercel.app"
 }
 ]
