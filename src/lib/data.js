@@ -5,7 +5,7 @@ export const projectData=[
     {
     id:1,
     img:movias,
-    des:'you can add a new movie,delete,edit.you can divide it into categories, the login part is also worthy of praise.',
+    des:'you can add a new movie and delete,update',
     title:`MOVIAS`,
     urlGit:"https://github.com/Hindolbekk/MoviasSite",
     urlVercel:"https://movias-site.vercel.app"
@@ -23,6 +23,14 @@ export const projectData=[
     img:Counter,
     des:'for simple counting and it can be added and reduced to the initial state',
     title:`Single Counter`,
+    urlGit:"https://github.com/Hindolbekk/SingleCounter",
+    urlVercel:"https://single-counter.vercel.app"
+},
+{
+    id:4,
+    img:Counter,
+    des:'this project means fighting corruption online',
+    title:`Justice Worrios`,
     urlGit:"https://github.com/Hindolbekk/SingleCounter",
     urlVercel:"https://single-counter.vercel.app"
 }

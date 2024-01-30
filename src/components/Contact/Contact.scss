@@ -91,5 +91,24 @@ img{
     width: 50px;
     height:30px;
 }
+@media(max-width:810px){
+    .Contact_inner{
+        flex-direction: column;
+    }
+    .Contact__connect{
+        padding-bottom: 20px;
+    }
+}
+@media(max-width:490px){
+   .Contact__information__connect{
+    input{
+        width: 370px!important;
+    }
+    button{
+        margin-left: 10px;
+    }
+   }
+    
+}
 
 

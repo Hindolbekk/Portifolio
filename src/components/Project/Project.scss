@@ -1,5 +1,7 @@
 .Project{
    background: #1A1A29;
+   padding-bottom: 100px;
+   max-width: 100vw;
 }
 .Project__title{
     color: #7562E0;
@@ -9,85 +11,86 @@ font-weight: 600;
 line-height: normal;
 }
 .Project__info{
+  
     margin: 16px;
-    width: 927px;
+    max-width: 927px;
     color:  #FFF;
 font-size: 18px;
 font-style: normal;
 font-weight: 500;
 line-height: 32px;
 }
-.project__list{
-    padding-bottom: 100px;
+.mySwiper{
+    height: 400px;
+    margin-top: 40px;
+.swiperslide{
+    margin-bottom: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    .project__item{
-        padding: 10px;
-        width: 343px;
-        height: 417px;
-        border-radius: 8px;
+    font-size: 40px;
+    .card{
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       width: 320px;
+       height: 417px;
+       flex-shrink: 0;
+       border-radius: 8px;
        background: #31313F;
-       margin-left: 8px;
-       img{
-        text-align: center;
-        width: 311px;
-        height: 173px;
-        border-radius: 8px;
-        padding:16px 16px;
-       }
-       h2{
-        color:  #7562E0;
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-       }
-       p{
-        padding-top: 5px;
-        width: 303px;
-        color:#FFF;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-padding-bottom: 25px;
-       }
-       span{
-        
-        display: flex;
-        button:nth-child(1){
-            margin-right: 15px;
-            padding: 12px 25px;
-            align-items: flex-start;
-            gap: 6px;
-            border-radius: 8px;
-            background:  #7562E0;
-           color: white;
-           font-size: 16px;
-           font-style: normal;
-           font-weight: 600;
-           line-height: normal;
-        }
-        button:nth-child(2){
-            border-radius: 8px;
-            border: 2px solid  #7562E0;
-            padding: 12px 34px;
-            align-items: flex-start;
-            gap: 5px;
-            font-size: 16px;
+       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        h2{
+            color: var(--Primary-colour, #7562E0);
+            font-family: Poppins;
+            font-size: 24px;
             font-style: normal;
             font-weight: 600;
             line-height: normal;
-            background: transparent;
-            color: white;
         }
+        .cardImage {
+        width: 300px;
+        height: 173px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        padding-top: 10px;
+          }
+          p{
+            padding: 5px 5px;
+            color: var(--White, #FFF);
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+          span{
+            padding-top:5px;
+           display: flex;
+          }
+          button{
+            a:hover{
+             color: blue;
+            }
+        margin-left: 5px;
+        display: flex;
+        width: 150px;
+        height: 43px;
+        padding: 12px 25px;
+         justify-content: center;
+         align-items: center;
+         gap: 6px;
+         flex-shrink: 0;
+         padding: 12px 25px;
+         color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 8px;
+        background: #7562E0;
+          }
     }
-    }
+    
 }
-a{
-    color: #FFF;
 }
-a:hover{
-    color: aqua;
- }
