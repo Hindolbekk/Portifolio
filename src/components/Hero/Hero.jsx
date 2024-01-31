@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.scss'
-import rasm from '../../assets/img/rass.jpg'
+import rasm from '../../assets/img/rass.svg'
 import DownloadIcon from '@mui/icons-material/Download';
 import resume2 from '../../assets/doc/resumee.pdf'
 function Hero() {

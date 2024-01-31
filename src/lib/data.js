@@ -1,6 +1,7 @@
 import movias from '../assets/img/MoviasImg.jpg'
 import singleLogin from '../assets/img/SingleLoginImg.jpg'
 import Counter from '../assets/img/counter.jpg'
+import Justice from '../assets/img/justiceImg.jpg'
 export const projectData=[
     {
     id:1,
@@ -28,10 +29,10 @@ export const projectData=[
 },
 {
     id:4,
-    img:Counter,
+    img:Justice,
     des:'this project means fighting corruption online',
     title:`Justice Worrios`,
-    urlGit:"https://github.com/Hindolbekk/SingleCounter",
-    urlVercel:"https://single-counter.vercel.app"
+    urlGit:"https://github.com/Hindolbekk/withJustice",
+    urlVercel:"https://with-justice.vercel.app"
 }
 ]

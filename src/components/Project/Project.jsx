@@ -43,17 +43,17 @@ function Project() {
           },
           650: {
             slidesPerView: 1,
-            spaceBetween: 23,
+            spaceBetween: 15,
             direction:"horizontal"
           },
           850: {
             slidesPerView: 2,
-            spaceBetween: 25,
+            spaceBetween: 20,
             direction:"horizontal"
           },
           1150: {
             slidesPerView: 2,
-            spaceBetween: 10,
+            spaceBetween: 20,
             direction:"horizontal"}}}>
         { 
          projectData?.map((item,index)=>{
@@ -65,7 +65,7 @@ function Project() {
                 <p>{item.des}</p>
                 <span>
                 <button><a href={item.urlVercel} target="_blank">View Live</a></button>
-                <button> <a href={item.urlVercel} target="_blank">Github Repo</a></button>
+                <button> <a href={item.urlGit} target="_blank">Github Repo</a></button>
                 </span>
               </div>
             </SwiperSlide>
