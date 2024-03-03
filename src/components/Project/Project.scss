@@ -94,3 +94,9 @@ line-height: 32px;
     
 }
 }
+@media(max-with:400px){
+  .card{
+    width:350px !important;
+    margin-bottom: 10px;
+  }
+}

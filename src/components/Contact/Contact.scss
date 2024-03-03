@@ -110,5 +110,14 @@ img{
    }
     
 }
+@media (max-width:380px) {
+    .connect__list{
+        input{
+            width: 300px !important;
+        }
+    }
+    
+}
+
 
 

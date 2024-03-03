@@ -1,12 +1,13 @@
 
 .Header{
-    margin-right: 50px;
+    margin:  0 auto;
     padding: 19px 160px;
     position: fixed;
     max-width: 100%;
     text-align: center;  
 }
 .Headers{
+    margin:  0 auto;
     background: #181824;
     padding: 19px 160px;
     position: fixed;
@@ -46,7 +47,9 @@ color:  #7562E0;
     display: none;
    }  
 }
-@media(max-width:595px) {
-    
-    
- }
+@media(max-with:325px){
+  
+  .Headers{
+    width: auto !important;
+  }
+}

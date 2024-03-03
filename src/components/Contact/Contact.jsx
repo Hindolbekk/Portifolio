@@ -24,7 +24,7 @@ function Contact() {
               <a href="https://t.me/HindolbekDeveloper" target='_blank'> <img src={telegramImg} alt="telegram" />TELEGRAM</a>
             </li>
             <li className='contact__connect__item'>
-              <a href="" target='_blank'><img src={gmailImg} alt="" />GMAIL:hindolbekkarimov67@gmail.com</a>
+              <a href="" target='_blank'><img src={gmailImg} alt="" />gmail:hindolbekkarimov67@gmail.com</a>
             </li>
             <li className='contact__connect__item linkedin'>
               <a href="https://www.linkedin.com/in/hindolbek-karimov-20b44422b/"><img src={linkedImage} alt="" />LINKED IN</a>
