@@ -2,6 +2,7 @@ import movias from '../assets/img/MoviasImg.jpg'
 import singleLogin from '../assets/img/SingleLoginImg.jpg'
 import Counter from '../assets/img/counter.jpg'
 import Justice from '../assets/img/justiceImg.jpg'
+import UzbWeather from '../assets/img/UzbWeather.jpg'
 export const projectData=[
     {
     id:1,
@@ -34,5 +35,13 @@ export const projectData=[
     title:`Justice Worrios`,
     urlGit:"https://github.com/Hindolbekk/withJustice",
     urlVercel:"https://with-justice.vercel.app"
-}
+},
+{
+    id:5,
+    img:UzbWeather,
+    des:'this project means weather of Uzbekistan',
+    title:`Uzb Weather`,
+    urlGit:"https://github.com/Hindolbekk/WeatherJs",
+    urlVercel:"https://weather-js-ten.vercel.app/"
+},
 ]
